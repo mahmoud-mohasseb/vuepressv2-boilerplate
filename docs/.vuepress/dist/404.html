@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.51">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Peter boilerplate v2</title><meta name="description" content="Just playing around vuepress v2 for peter chaudhary 💻">
+    <link rel="modulepreload" href="/assets/app.a8ea48db.js"><link rel="modulepreload" href="/assets/404.html.9729b9ec.js"><link rel="modulepreload" href="/assets/404.html.d2dc3323.js"><link rel="prefetch" href="/assets/index.html.0376b002.js"><link rel="prefetch" href="/assets/contributing.html.27b973f6.js"><link rel="prefetch" href="/assets/index.html.4e1b7a12.js"><link rel="prefetch" href="/assets/intro.html.5e292897.js"><link rel="prefetch" href="/assets/vuepress.html.13aa07ed.js"><link rel="prefetch" href="/assets/index.html.8805f482.js"><link rel="prefetch" href="/assets/getting-started.html.69cd1419.js"><link rel="prefetch" href="/assets/vuepress.html.97a35c6a.js"><link rel="prefetch" href="/assets/index.html.cb9fb433.js"><link rel="prefetch" href="/assets/contributing.html.093d25b1.js"><link rel="prefetch" href="/assets/index.html.04cb1158.js"><link rel="prefetch" href="/assets/intro.html.c183cec3.js"><link rel="prefetch" href="/assets/vuepress.html.1669e485.js"><link rel="prefetch" href="/assets/index.html.d15094ee.js"><link rel="prefetch" href="/assets/getting-started.html.94a23a23.js"><link rel="prefetch" href="/assets/vuepress.html.69bd7ac7.js">
+    <link rel="stylesheet" href="/assets/style.96ee71b5.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/assets/app.a8ea48db.js" defer></script>
+  </body>
+</html>
